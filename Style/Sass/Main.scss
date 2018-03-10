@@ -10,7 +10,7 @@ ul {
     padding: 0;
     overflow: hidden;
 
-  
+
 }
 
 li {
@@ -41,14 +41,14 @@ li a:hover {
 .search{
     width:auto;
     height:500px;
-  
+
 }
 .show{
     width:auto;
 
 margin-top:5px;
-    height:400px; 
- 
+    height:400px;
+
 }
 .show ul{
         list-style-type:none;
@@ -56,7 +56,7 @@ margin-top:5px;
     padding: 0;
 
 
-  
+
 }
 .show li{
     float:none;
@@ -67,12 +67,11 @@ margin-top:5px;
 
    width:100px;
 
-   
+
 }
 .backgroundimg{
-
+position:absolute; z-index:1; width:100%; height:100%;
 background-image:url("https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Mount_Everest_as_seen_from_Drukair2_PLW_edit.jpg/1920px-Mount_Everest_as_seen_from_Drukair2_PLW_edit.jpg");
 // opacity:0.5;
 // Skift opacity på bakgrunnsbilde ELLER finn en måte hvor child element ikke affekter parent element.
 }
-
