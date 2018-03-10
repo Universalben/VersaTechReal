@@ -7,6 +7,9 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+      <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+           <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+           <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <!-- Bootstrap-->
@@ -16,7 +19,7 @@
 </head>
     <body>
 <div class="backgroundimg">
-<nav>
+<nav>   
 <ul>
   <li><a href="#"><img class="logoimg" src="tindelogo.svg"></a></li>
   <li class="menuitem"><a href="#visningshytter">Visningshytter</a></li>
@@ -33,7 +36,15 @@
         </div>
     </div>
 </div>
-
+    <div class="container text-center">
+<button>Click meg</button>
+        </div>
+    <script>
+    document.querySelector("button").addEventListener("click", function(){
+    document.querySelector(".hideable").style.display = "block";
+            document.querySelector(".ShowLess").style.display = "block";
+});</script>
+<div class="hideable" style="overflow-y: scroll; height:600px;"><!--Scrollable content-->
         <div class="result">
 <div class="container blue minisize">
     <div class="row">
@@ -55,18 +66,25 @@
     </div>
         </div>
 </div>
-    <div class="container black text-center semer">
+    </div>
+  <!--  <div class="container black text-center semer">
         <div class="row">
         <p> Se mer</p></div>
-    </div>
+    </div>-->
 
     <div class="container omoss blue">
-        <h1 class="text-center">VI er</h1>
+        <h1 class="text-center">Hvem er TindeUtvikling?</h1>
 <div class="row">
-  <div class="border col-sm-3">Vi er</div>
-  <div class="border col-sm-3">VI er</div>
-  <div class="border col-sm-3">Vi er</div>
-  <div class="border col-sm-3">Vi er</div>
+  <div class="col-sm-3 ">    <a href="#" class="thumbnail">
+      <img src="http://via.placeholder.com/350x150" alt="..."></a>
+      <h4 class="text-center">Lorem Ipsum</h4><p>Lorem Irsum Lorem Irsum Lorem Irsum Lorem Irsum Lorem Irsum Lorem Irsum Lorem Irsum Lorem Irsum Lorem Irsum Lorem Irsum Lorem Irsum Lorem Irsum Lorem Irsum Lorem Irsum </p></div>
+  <div class="col-sm-3">    <a href="#" class="thumbnail">
+      <img src="http://via.placeholder.com/350x150" alt="..."></a>    <h4 class="text-center">Lorem Ipsum</h4><p>Lorem Irsum Lorem Irsum Lorem Irsum Lorem Irsum Lorem Irsum Lorem Irsum Lorem Irsum Lorem Irsum Lorem Irsum Lorem Irsum Lorem Irsum Lorem Irsum Lorem Irsum Lorem Irsum </p></div>
+    
+  <div class="col-sm-3">    <a href="#" class="thumbnail">
+      <img src="http://via.placeholder.com/350x150" alt="..."></a>    <h4 class="text-center">Lorem Ipsum</h4><p>Lorem Irsum Lorem Irsum Lorem Irsum Lorem Irsum Lorem Irsum Lorem Irsum Lorem Irsum Lorem Irsum Lorem Irsum Lorem Irsum Lorem Irsum Lorem Irsum Lorem Irsum Lorem Irsum </p></div>
+  <div class="col-sm-3">    <a href="#" class="thumbnail">
+      <img src="http://via.placeholder.com/350x150" alt="..."></a>    <h4 class="text-center">Lorem Ipsum</h4><p>Lorem Irsum Lorem Irsum Lorem Irsum Lorem Irsum Lorem Irsum Lorem Irsum Lorem Irsum Lorem Irsum Lorem Irsum Lorem Irsum Lorem Irsum Lorem Irsum Lorem Irsum Lorem Irsum </p></div>
 </div>
         </div>
 <footer>
@@ -83,7 +101,15 @@
 </div>
     </div>    </div>
 </footer>
+    <div>
+    <button class="ShowLess">Show less</button></div>
        </div>
+            <script>
+    document.querySelector(".ShowLess").addEventListener("click", function(){
+    document.querySelector(".hideable").style.display = "none";
+            document.querySelector(".ShowLess").style.display = "none";
+});</script>
+        
       
     </body>
 </html>

@@ -80,6 +80,7 @@ height:75%;
 width:auto;
 height:500px;
     
+    
 }
 
 .semer{
@@ -88,8 +89,12 @@ height:500px;
 }
 .omoss{
 width:95%;
-height:20%;
+height:auto;
+    margin-top:10px;
  
+}
+.omoss img{
+border-radius:50px;
 }
 .footer {
   height:300px;//Remove height, only for showing
@@ -100,6 +105,19 @@ height:20%;
     color: white;
     text-align: center;
 }
-.footer p{
+
+.hideable{
+    display:none;
+}
+.ShowLess{
+    position: fixed;
+    left: 40%;
+    bottom: 0;
+height:10%;
+    width: 10%;
+    background-color: green;
+    color: white;
+    text-align: center;
+    display:none;
 
 }
