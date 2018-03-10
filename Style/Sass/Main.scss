@@ -3,14 +3,16 @@ Author: Beniamin Kwiek
 Description: Css
 Version: 0.0.1
 */
+
+/*Imported font*/
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
 ul {
     list-style-type: none;
     text-decoration:none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-
-  
 }
 
 li {
@@ -19,7 +21,7 @@ li {
 
 li a {
     display: block;
-    color: black;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -27,7 +29,12 @@ li a {
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-    background-color: #111;
+    color: white;
+}
+
+li a:focus {
+    color:white;
+    outline: none;
 }
 
 .logoimg{
@@ -35,8 +42,12 @@ li a:hover {
     width:100px;
 }
 .menuitem {
-    float:right;
-    margin-top:80px;
+    font-size: 19px;
+    font-family: 'Raleway', sans-serif;
+    float: right;
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 20px;
 }
 .search{
     width:auto;
@@ -71,7 +82,7 @@ margin-top:5px;
 }
 .backgroundimg {
 
-    background-image: url(../Pics/headerM2.jpg);
+    background-image: url(../Pics/headerM3.jpg);
 // opacity:0.5;
 // Skift opacity på bakgrunnsbilde ELLER finn en måte hvor child element ikke affekter parent element.
     
