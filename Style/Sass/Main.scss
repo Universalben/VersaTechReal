@@ -38,8 +38,10 @@ nav li a:focus {
    outline: none;
 }
 .logoimg{
-    height:100px;
-    width:100px;
+    position: relative;
+    bottom: 40px;
+    height: 190px;
+    width: 190px;
 }
 .menuitem {
     float:right;
@@ -54,10 +56,16 @@ nav li a:focus {
 .search{
     width:auto;
     height:500px;
-    color:white;
-   
-    
-  
+    color:white;  
+}
+
+.tagline {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    color: white;
+    margin-left: 0.9%;
+    position: relative;
+    bottom: 110px;
 }
    
 
@@ -130,16 +138,21 @@ border-radius:50px;
 .ShowLess{
 
     position: fixed;
-    left: 45%;
+    left: 46.5%;
     bottom: 0;
-    height:10%;
-    width: 10%;
-    background-color: lightgrey;
+    height:5%;
+    width: 5%;
+    background-color: white;
     text-align: center;
     display:none;
+    margin: 20px;
     border-radius: 50px;
+    border-color: #229b73;
+}
 
-
+.ShowLess img {
+    height: 3em;
+    width: 3em;
 }
 
 /* Let's get this party started */
@@ -148,8 +161,7 @@ border-radius:50px;
 }
  
 /* Track */
-::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px green; 
+::-webkit-scrollbar-track { 
     -webkit-border-radius: 10px;
     border-radius: 10px;
 }
@@ -158,11 +170,11 @@ border-radius:50px;
 ::-webkit-scrollbar-thumb {
     -webkit-border-radius: 10px;
     border-radius: 10px;
-    background: green; 
-    -webkit-box-shadow: inset 0 0 6px green; 
+    background: #229b73;
+    -webkit-box-shadow: inset 0 0 6px #229b73;
 }
 ::-webkit-scrollbar-thumb:window-inactive {
-	background: green; 
+	background: #229b73; 
 }
 .Imgcar{
     height:100%;
@@ -258,16 +270,16 @@ float:center;
 .showbutton button {
     height: 55px;
     width: 55px;
-    border: none;
+    border-color: #229b73;
     border-radius: 50px;
     background-color: white;
 }
 .showbutton button img {
     display: block;
-    height: 59px;
-    width: 43px;
+    height: 60px;
+    width: 40px;
 }
 .buttonmoretxt {
     font-size: 30px;
-  margin-left:47.5%;
+    margin-left:47.9%;
 }
