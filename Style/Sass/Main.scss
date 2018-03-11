@@ -129,3 +129,34 @@ height:10%;
     display:none;
 
 }
+
+/* Let's get this party started */
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px green; 
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: green; 
+    -webkit-box-shadow: inset 0 0 6px green; 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: green; 
+}
+.Imgcar img {
+    height:100px;
+    width:auto;
+}
+.floater{
+    float:left;
+    display:block;
+}
