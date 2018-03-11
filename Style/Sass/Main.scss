@@ -9,6 +9,7 @@ $rød: #cc6633;
 $blå: #0099cc;
 $turkis: #33cc99;
 $mørkeblå: #003366;
+
     
 nav ul {
     list-style-type: none;
@@ -65,6 +66,9 @@ nav li a:focus {
   
 }
    
+.turkis{
+    background-color:$turkis;
+}
 
 .backgroundimg{
 background-image:url(../Pics/headerM.jpg);
@@ -122,8 +126,8 @@ border-radius:50px;
     padding:10px;
     bottom: 0;
     width: 100%;
-    background-color:lightgray;
-    text-align: center;
+    background-color:$turkis;
+    float:left;
 }
 .footer p {
 
@@ -139,7 +143,7 @@ border-radius:50px;
     bottom: 0;
     height:10%;
     width: 10%;
-    background-color: lightgrey;
+    background-color: lightgray;
     text-align: center;
     display:none;
     border-radius: 50px;
@@ -183,7 +187,7 @@ border-radius:50px;
     border-radius:50px;
 }
 .sitemap{
-    float:center;
+    float:right;
     text-decoration:none;
 }
 .float{
@@ -265,7 +269,7 @@ float:center;
     width: 55px;
     border: none;
     border-radius: 50px;
-    background-color: white;
+
 }
 .showbutton button img {
     display: block;
@@ -274,5 +278,20 @@ float:center;
 }
 .buttonmoretxt {
     font-size: 30px;
-  margin-left:47.5%;
+  margin-left:47%;
+    font-weight: 900;
+}
+.kontakt ul li {
+    list-style-type:none;
+}
+.kontakt h5{
+   
+    font-weight: 900;
+}
+.sitemap h5{
+    font-weight: 900;
+
+}
+.bold{
+    font-weight: bold;
 }
