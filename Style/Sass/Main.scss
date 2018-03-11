@@ -55,6 +55,8 @@ nav li a:focus {
     width:auto;
     height:500px;
     color:white;
+   
+    
   
 }
    
@@ -78,7 +80,8 @@ background-image:url(../Pics/headerM.jpg);
 .size{
     height:80%;
         width:50%;
-    margin-top:10%;
+    margin-top:5%;
+    
 }
 .minisize{
 width:75%;
@@ -125,15 +128,17 @@ border-radius:50px;
     display:none;
 }
 .ShowLess{
+
     position: fixed;
-    left: 40%;
+    left: 45%;
     bottom: 0;
-height:10%;
+    height:10%;
     width: 10%;
-    background-color: green;
-    color: white;
+    background-color: lightgrey;
     text-align: center;
     display:none;
+    border-radius: 50px;
+
 
 }
 
@@ -178,4 +183,91 @@ height:10%;
 }
 .float{
 float:center;
+}
+.border{
+    border-top-style:solid;
+  
+}
+.check {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.check input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.check:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.check input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.check input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.check .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.collect{
+    float:center;
+}
+.showbutton button {
+    height: 55px;
+    width: 55px;
+    border: none;
+    border-radius: 50px;
+    background-color: white;
+}
+.showbutton button img {
+    display: block;
+    height: 59px;
+    width: 43px;
+}
+.buttonmoretxt {
+    font-size: 30px;
+  margin-left:47.5%;
 }
