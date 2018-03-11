@@ -30,12 +30,12 @@
 </ul>
     </nav>
 
-<div class="search">
+<<div class="search">
 
     <div class="container size ">
 
         <div class="row">
-           <h1>Hytte</h1>
+           <!----><h1>Hytte</h1>
             <div class="border">
       
 <div class="col-sm-4"><h2>Soverom</h2>
@@ -92,8 +92,9 @@
   <span class="checkmark"></span>
 </label>
             </div>
-        </div>
-    </div></div>
+        </div><!-- -->
+</div>
+    </div>
     </div>
      <div class="buttonmoretxt">
         <p>Se alt</p>
@@ -728,20 +729,20 @@
         </div>
 </div>
     </div>
-    <div class="container omoss float">
-        <h1 class="text-center">OmOss</h1>
+    <div class="container omoss">
+        <h1 class="text-center paddmore">Vi hjelper deg i gang</h1>
 <div class="row">
-  <div class="col-sm-3 ">    <a href="#" class="thumbnail">
-      <img src="Omoss1.jpg" alt="..."></a>
-      <h4 class="text-center"><h4 class="text-center">Økonomi / regnskap</h4><p>
+  <div class="col-sm-3 ">    
+      <img src="Omoss1.jpg" alt="...">
+      <h4 class="text-center"><h4><strong>Økonomi / regnskap</strong></h4><p>
 
 BRITT UNNI ANDREASSEN BILBEN<br>
 
 Tlf: 469 87 310<br>
 
 britt@tindeutvikling.no</p></div>
-  <div class="col-sm-3">    <a href="#" class="thumbnail">
-      <img src="omoss2.jpeg" alt="..."></a>    <h4 class="text-center">Arb.styreformann</h4><p>
+  <div class="col-sm-3">   
+      <img src="omoss2.jpeg" alt="...">    <h4><strong>Arb.styreformann</strong></h4><p>
 
 ØYVIND HAVERSTAD<br>
 
@@ -749,16 +750,16 @@ Tlf: 905 98 289<br>
 
 øyvind@tindehytter.no </p></div>
     
-  <div class="col-sm-3">    <a href="#" class="thumbnail">
-      <img src="omoss3.jpg" alt="..."></a>    <h4 class="text-center">Daglig leder</h4><p>
+  <div class="col-sm-3">   
+      <img src="omoss3.jpg" alt="...">   <h4><strong>Daglig leder</strong></h4><p>
 
 TORBJØRN RANDEN<br>
 
 Tlf: 95030500<br>
 
 tr@tindeutvikling.no </p></div>
-  <div class="col-sm-3">    <a href="#" class="thumbnail">
-      <img src="omoss4.jpg" alt="..."></a>    <h4 class="text-center">Salgssjef</h4><p>
+  <div class="col-sm-3">
+      <img src="omoss4.jpg" alt="...">   <h4><strong>Salgssjef</strong></h4><p>
 
 TORE RUGSVEEN<br>
 
@@ -767,6 +768,33 @@ Tlf: 457 77 188<br>
 tore.rugsveen@tindeutvikling.no</p></div>
 </div>
         </div>
+        <div class="profix">
+        <div id="after_submit"></div>
+        <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+          <div class="row">
+            <label class="required" for="name">Ditt navn:</label><br />
+            <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+            <span id="name_validation" class="error_message"></span>
+          </div>
+          <div class="row">
+            <label class="required" for="email">Din e-mailadresse:</label><br />
+            <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+            <span id="email_validation" class="error_message"></span>
+          </div>
+          <div class="row">
+            <label class="required" for="telefon">Ditt telefonnummer:</label><br />
+            <input id="telefon" class="input" name="telefon" type="text" value="" size="30" /><br />
+            <span id="telefon_validation" class="error_message"></span>
+          </div>
+          <div class="row">
+            <label class="required" for="message">Tilleggsinformasjon:</label><br />
+            <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+            <span id="message_validation" class="error_message"></span>
+          </div>
+
+            <input id="submit_button" type="submit" value="Send email" />
+        </form>
+      </div>
       <!--  <div class="kontakt">
         </div>-->
 <footer>
