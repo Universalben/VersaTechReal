@@ -1,46 +1,52 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Home</title>
+    <head>
+        <title>Home</title>
 
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-      <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-           <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-           <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <!-- Bootstrap-->
-    <link rel="stylesheet" href="../style/css/main.css">
-    <!-- Imported from Scss, ScoutApp-->
-    <!-- Navbar font -->
-<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">  
+        <!-- Latest compiled and minified CSS -->
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <!-- Optional theme -->
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+            <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+            <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <!-- Latest compiled and minified JavaScript -->
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <!-- Bootstrap-->
+            <link rel="stylesheet" href="../style/css/main.css">
+        <!-- Imported from Scss, ScoutApp-->
+        <!-- Navbar font -->
+            <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">  
 
-</head>
+    </head>
     <body>
-<div class="backgroundimg">
-<nav>   
-<ul>
-  <li><a href="#"><img class="logoimg" src="tindelogo.svg"></a></li>
-  <li class="menuitem"><a href="#visningshytter">Visningshytter</a></li>
-  <li class="menuitem"><a href="#contact">Kontakt oss</a></li>
-  <li class="menuitem"><a href="#news">Nyheter</a></li>
-  <li class="menuitem"><a href="#contact">Kontakt</a></li>
-  <li class="menuitem"><a href="#about">Om oss</a></li>
-</ul>
-</nav>
-<div class="search">
-    <div class="container size black">
-        <div class="row">
-            <p>Put Search in here</p>
+        <div class="backgroundimg">
+        <nav>   
+            <ul>
+                <li><a href="#"><img class="logoimg" src="tindelogo.svg"></a></li>
+                <li class="menuitem"><a href="#visningshytter">Visningshytter</a></li>
+                <li class="menuitem"><a href="#contact">Kontakt oss</a></li>
+                <li class="menuitem"><a href="#news">Nyheter</a></li>
+                <li class="menuitem"><a href="#contact">Kontakt</a></li>
+                <li class="menuitem"><a href="#about">Om oss</a></li>
+            </ul>
+        </nav>
+        <div class="tagline">
+            <p>Bygger varige hytter</p>
         </div>
+        <div class="search">
+            <div class="container size black">
+                <div class="row">
+                    <p>Put Search in here</p>
+                </div>
+            </div>
+        </div>
+    <div class="buttonmoretxt">
+        <p>Se alt</p>
     </div>
-</div>
-    <div class="container text-center">
-<button>Click meg</button>
-        </div>
+    <div class="container text-center showbutton">
+        <button><img src="http://icons.iconarchive.com/icons/iconsmind/outline/48/Arrow-Down-icon.png"></button>
+    </div>
     <script>
     document.querySelector("button").addEventListener("click", function(){
     document.querySelector(".hideable").style.display = "block";
@@ -104,7 +110,7 @@
     </div>    </div>
 </footer>
     <div>
-    <button class="ShowLess">Show less</button></div>
+    <button class="ShowLess"><img src= "http://icons.iconarchive.com/icons/iconsmind/outline/48/Arrow-Up-icon.png"></button></div>
        </div>
             <script>
     document.querySelector(".ShowLess").addEventListener("click", function(){

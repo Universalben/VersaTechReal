@@ -3,6 +3,8 @@ Author: Beniamin Kwiek
 Description: Css
 Version: 0.0.1
 */
+
+/*imported font*/
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
 ul {
@@ -10,9 +12,7 @@ ul {
     text-decoration:none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-
-  
+    overflow: hidden; 
 }
 
 li {
@@ -21,25 +21,28 @@ li {
 
 li a {
     display: block;
-  color: white;
+    color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 10px 7px;
     text-decoration: none;
 }
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
- 
     color: white;
-
 }
+
+/* Keep the text white after click */
 li a:focus {
-  color:white;
+   color:white;
    outline: none;
 }
+
 .logoimg{
-    height:100px;
-    width:100px;
+    height:80px;
+    width:auto;
+    margin-top: 20px;
+    margin-left: 20px;
 }
 .menuitem {
     float:right;
@@ -47,16 +50,21 @@ li a:focus {
      font-size: 19px;
   font-family: 'Raleway', sans-serif;
 
-  margin-top: 40px;
+  margin-top: 50px;
   margin-left: 10px;
-   margin-right: 20px;
+   margin-right: 23px;
 }
 .search{
     width:auto;
     height:500px;
-  
 }
-   
+
+.tagline {
+    font-size: 20px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 38px;
+}
 
 .backgroundimg{
 background-image:url(../Pics/headerM.jpg);
@@ -117,15 +125,31 @@ border-radius:50px;
 .hideable{
     display:none;
 }
+
 .ShowLess{
     position: fixed;
-    left: 40%;
+    left: 45%;
     bottom: 0;
-height:10%;
+    height:10%;
     width: 10%;
-    background-color: green;
-    color: white;
+    background-color: lightgrey;
     text-align: center;
     display:none;
-
+    border-radius: 50px;
+}
+.showbutton button {
+    height: 55px;
+    width: 55px;
+    border: none;
+    border-radius: 50px;
+    background-color: white;
+}
+.showbutton button img {
+    display: block;
+    height: 59px;
+    width: 43px;
+}
+.buttonmoretxt {
+    font-size: 30px;
+    margin-left: 910px;
 }
