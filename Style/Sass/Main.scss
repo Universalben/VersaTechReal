@@ -5,7 +5,7 @@ Version: 0.0.1
 */
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
-ul {
+nav ul {
     list-style-type: none;
     text-decoration:none;
     margin: 0;
@@ -15,11 +15,11 @@ ul {
   
 }
 
-li {
+nav li {
     float: left;
 }
 
-li a {
+nav li a {
     display: block;
   color: white;
     text-align: center;
@@ -28,12 +28,12 @@ li a {
 }
 
 /* Change the link color to #111 (black) on hover */
-li a:hover {
+nav li a:hover {
  
     color: white;
 
 }
-li a:focus {
+nav li a:focus {
   color:white;
    outline: none;
 }
@@ -85,9 +85,12 @@ height:75%;
 
 }
 .result{
-width:auto;
-height:500px;
-    
+width:100%;
+height:auto;
+    border-bottom-style:solid;
+    border-bottom-color:gray;
+    padding-top:2%;
+    border-bottom-width: thin;
     
 }
 
@@ -105,13 +108,16 @@ height:auto;
 border-radius:50px;
 }
 .footer {
-  height:300px;//Remove height, only for showing
+//Remove height, only for showing
    margin-top:5px;
+    padding:10px;
     bottom: 0;
     width: 100%;
-    background-color: red;
-    color: white;
+    background-color:lightgray;
     text-align: center;
+}
+.footer p {
+
 }
 
 .hideable{
@@ -152,11 +158,64 @@ height:10%;
 ::-webkit-scrollbar-thumb:window-inactive {
 	background: green; 
 }
-.Imgcar img {
-    height:100px;
-    width:auto;
+.Imgcar{
+    height:100%;
+    width:100%;
+    padding:5px;
 }
-.floater{
-    float:left;
+.floater ul li{
+    float:none;
     display:block;
+    text-decoration:none;
+}
+.sealleknapp button{
+    border-radius:50px;
+}
+.sitemap{
+    float:center;
+    text-decoration:none;
+}
+.float{
+    float:center;
+}
+//Tab search
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+.tablinks{
+    width:33%;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+    color:white;
+    text-align:center;
 }
