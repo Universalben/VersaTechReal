@@ -37,7 +37,6 @@
     <script>// Animations init
 new WOW().init();                    
                     </script>
-</nav>
     <!--START result page
  
         <div class="result">
