@@ -230,45 +230,7 @@ new WOW().init();
         <!--END ABT cont-->
     </div>
     <!--END about-->
-    
-    <!--START footer-->
-    <footer>
-        <div class="footer">
-            <div class="container ">
-                <div class="row">
-                    <div class="col-sm-4 kontakt ">
-                        <ul>
-                            <li>
-                                <h5>KONTAKT OSS</h5>
-                            </li>
-                            <li>post@tindeutvikling.no</li>
-                            <li>Tlf:50 30 500 </li>
-                            <li>Tinde Utvikling AS</li>
-                            <li>Et selskap i Tindegruppen</li>
-                            <li>Frya, 2630 Ringebu</li>
-                            <li>Copyright © Tinde Utvikling AS | Design av BenMan2k| Drevet med BenPublish CMS</li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-4"></div>
-                    <div class="col-sm-4 sitemap">
-                        <h5>Sitemap</h5>
-                        <a src="">Home</a>
-                        <a src="">Om Oss</a>
-                        <a src="">Kontakt</a>
-                        <a src="">Hytter</a>
-                        <a src="">Hytteområder</a>
-
-                    </div>
-
-
-                </div>
-                <div class="helper">
-                    <button> <a href="#top">To the top</a></button>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!--END FOOTER-->
+      <?php include("header.html"); ?>
     <div>
         <!--START remove hideable button
         <button class="ShowLess"><img src= "http://icons.iconarchive.com/icons/iconsmind/outline/48/Arrow-Up-icon.png"></button></div>
