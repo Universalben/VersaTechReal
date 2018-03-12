@@ -6,10 +6,10 @@ Version: 0.0.1
 /*Variables*/
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 @import url('https://fonts.googleapis.com/css?family=Rubik|Roboto+Mono');
-$rød: #cc6633;
-$blå: #0099cc;
+$red: #cc6633;
+$blue: #0099cc;
 $turkis: #33cc99;
-$mørkeblå: #4c7093;
+$Darkblue: #4c7093;
 $fonth:'Rubik'sans-serif;
 $fontp:'Roboto'sans-serif;
 
@@ -156,7 +156,7 @@ font-family:$fonth;
  
 /* Track */
 ::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px $mørkeblå; 
+    -webkit-box-shadow: inset 0 0 6px $Darkblue; 
     -webkit-border-radius: 10px;
     border-radius: 10px;
 }
@@ -165,13 +165,12 @@ font-family:$fonth;
 ::-webkit-scrollbar-thumb {
     -webkit-border-radius: 10px;
     border-radius: 10px;
-    background: $mørkeblå; 
-    -webkit-box-shadow: inset 0 0 6px $mørkeblå; 
+    background: $Darkblue; 
+    -webkit-box-shadow: inset 0 0 6px $Darkblue; 
     
 }
 ::-webkit-scrollbar-thumb:window-inactive {
-	background: $mørkeblå; 
-}
+	background: $Darkblue;
 .Imgcar{
     height:100%;
     width:100%;
