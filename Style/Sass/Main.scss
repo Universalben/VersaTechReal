@@ -3,6 +3,7 @@ Author: Beniamin Kwiek
 Description: Css
 Version: 0.0.1
 */
+/*Variables*/
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 @import url('https://fonts.googleapis.com/css?family=Rubik|Roboto+Mono');
 $rød: #cc6633;
@@ -12,7 +13,7 @@ $mørkeblå: #4c7093;
 $fonth:'Rubik'sans-serif;
 $fontp:'Roboto'sans-serif;
 
-    
+    /*nav*/
 nav ul {
     list-style-type: none;
     text-decoration:none;
@@ -35,7 +36,7 @@ nav li a {
     text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
+
 nav li a:hover {
  
     color: white;
@@ -71,7 +72,7 @@ nav li a:focus {
 .turkis{
   
 }
-
+/*background img*/
 .backgroundimg{
 background-image:url(../Pics/headerM.jpg);
     width:100%;
@@ -79,10 +80,9 @@ background-image:url(../Pics/headerM.jpg);
     z-index:1;
     position:absolute;
     background-repeat:no-repeat;
-// opacity:0.5;
-// Skift opacity på bakgrunnsbilde ELLER finn en måte hvor child element ikke affekter parent element.
-}
 
+}
+/*Div*/
 .size{
     height:80%;
         width:50%;
@@ -118,10 +118,10 @@ font-family:$fonth;
     margin-top:-5%;
     margin-bottom:5%;
 }
-.omoss{
+.omoss span{
 
 
-
+ display:block;
 
  
 }
@@ -129,20 +129,7 @@ font-family:$fonth;
 .omoss img{
 
 }
-.footer {
-//Remove height, only for showing
-   margin-top:7%;
-    padding:10px;
-    bottom: 0;
-    width: 100%;
-    background-color:#b3d9ff;
-    color:black;
-    float:left;
- 
-}
-.footer p {
-
-}
+/*Footer*/
 
 .hideable{
     display:none;
@@ -218,7 +205,7 @@ order{
     -ms-user-select: none;
     user-select: none;
 }
-
+/*DEL after, START*/
 /* Hide the browser's default checkbox */
 .check input {
     position: absolute;
@@ -270,6 +257,7 @@ order{
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
 }
+/*DEL after END*/
 .collect{
     float:center;
 }
@@ -315,7 +303,7 @@ order{
  font-size:40px;
     font-weight:bold;
 }
-// form
+/* form*/
 .profix {
   background-color:#c6d9ec
 ;
@@ -329,3 +317,49 @@ order{
 }
 .profix #submit_button {margin-left:15px;}
 label{margin-left:-15px;}
+/*FOOTER*/
+.footer {
+
+   margin-top:7%;
+    padding:10px;
+    bottom: 0;
+    width: 100%;
+    background-color:#b3d9ff;
+    color:black;
+    float:left;
+ 
+}
+.footer p {
+
+}
+html{
+     height: 100%;
+}
+/*MAP*/
+#map {
+  float: left;
+  height: 100%;
+  width: 79%;
+}
+#content-window {
+  float: left;
+  font-family: 'Roboto','sans-serif';
+  height: 100%;
+  line-height: 30px;
+  padding-left: 10px;
+  width: 50%;
+}
+/*Top of the page helper*/
+.helper {
+position: fixed;
+  left:40%;
+   bottom: 0;
+   width: 100%;
+   background-color: transparent;
+   color: black;
+    font-weight:900;
+   text-align: center;
+}
+.helper li{
+    color:black;
+}
