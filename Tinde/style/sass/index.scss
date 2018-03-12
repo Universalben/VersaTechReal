@@ -1,0 +1,179 @@
+
+/*
+Author: Beniamin Kwiek
+Description: Css
+Version: 0.0.1
+*/
+/*Variables*/
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Rubik|Roboto+Mono');
+$red: #cc6633;
+$blue: #0099cc;
+$turkis: #33cc99;
+$Darkblue: #4c7093;
+$fonth:'Rubik'sans-serif;
+$fontp:'Roboto'sans-serif;
+body {
+
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+    
+}
+.fullimage img {
+    height:600px;
+    width:100%;
+    z-index:1;
+}
+.black  {
+    background-color:black;
+       height:250px;
+      border-style:solid;
+    border-color:yellow;//SYNES
+}
+.blue {
+    background-color:blue;
+    height:250px;
+      border-style:solid;
+    border-color:yellow;//SYNES
+}
+.overflower  {
+    margin-top:-400px;
+  
+    // SYNES IKKE
+    
+}
+.buttonmoretxt {
+    font-size: 40px;
+  margin-left:46.5%;
+    font-weight:bold;
+ 
+}
+.showbutton button {
+    height: 55px;
+    width: 55px;
+    border: none;
+    border-radius: 50px;
+
+}
+.showbutton button img {
+    display: block;
+    height: 59px;
+    width: 43px;
+}
+/*FOOTER*/
+.footer {
+
+   margin-top:7%;
+    padding:10px;
+    bottom: 0;
+    width: 100%;
+    background-color:#b3d9ff;
+    color:black;
+    float:left;
+}
+.helper {
+position: fixed;
+  left:40%;
+   bottom: 0;
+   width: 100%;
+   background-color: transparent;
+   color: black;
+    font-weight:900;
+   text-align: center;
+}
+.helper li{
+    color:black;
+}
+.ShowLess{
+
+  
+    background-color: lightgray;
+    text-align: center;
+    display:block;
+    border-radius: 50px;
+
+
+}
+.hideable{
+    display:block;
+}
+.result{
+width:100%;
+height:auto;
+    border-bottom-style:solid;
+    border-bottom-color:gray;
+    padding-top:2%;
+    border-bottom-width: thin;
+    color:black;
+    
+}
+.result p{
+    font-family:$fontp;
+    font-size:20px;
+
+font-family:$fonth;
+    
+}
+.Imgcar{
+    height:100%;
+    width:100%;
+    padding:5px;
+}
+.float a{
+   font-size:50px;
+    background-color:black;
+}
+.fix{
+ float:right;
+}
+.fontfix a{
+    font-size:50px;
+    font-family:$fonth;
+    font-weight:900;
+    text-decoration:none;
+    color:white;
+}
+.fontfix a:hover {
+    color:white;
+    opacity:0.5;
+}
+.fontfix a:active  {
+    color:blue;
+}
+.kontakt ul li {
+    list-style-type:none;
+}
+.kontakt h5{
+   
+    font-weight: 900;
+}
+.sitemap h5{
+    font-weight: 900;
+
+}
+.bold{
+    font-weight: bold;
+}
+.omoss span{
+display:block;
+}
+.custom {
+ 
+}
+.fixer{
+    color:black;
+    font-family:$fonth;
+    font-weight:900;
+}
+.right{
+    margin-left:0;
+  
+}
+.backgroundcolor{
+    background-color:transparent !important; // CHANGING COLOR OF NAV,OVERRIDING BOOTSTRAP
+}
+.brandimg{
+    height:30px;
+    width:60px;
+}
