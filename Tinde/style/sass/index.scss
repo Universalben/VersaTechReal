@@ -127,6 +127,8 @@ font-family:$fonth;
 .fix{
  float:right;
 }
+
+
 .fontfix a{
     font-size:50px;
     font-family:$fonth;
@@ -141,6 +143,7 @@ font-family:$fonth;
 .fontfix a:active  {
     color:blue;
 }
+
 .kontakt ul li {
     list-style-type:none;
 }
@@ -158,9 +161,51 @@ font-family:$fonth;
 .omoss span{
 display:block;
 }
+
+#omoss {
+    margin-bottom:100px;
+}
+
+h1.text-center.paddmore {
+    margin-bottom:50px;
+}
 .custom {
  
 }
+
+.tindeinfo {
+    margin-top:10%;
+    padding:0;
+    background-image: url(../../html/tindeutviklinginfo.jpg);
+    background-size: 1280px 402px;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.tindeinfo h3 {
+    text-align: center;
+    
+}
+
+.tindeinfo p {
+    text-align: center;
+    
+}
+
+.tindeinfo a {
+    color:#cccccc;
+}
+.tindeinfo .kontaktoss {
+    text-align: center;
+    
+}
+
+.tindeinfo .infoboks {
+    padding:15%;
+    color:white;
+
+}
+
 .fixer{
     color:black;
     font-family:$fonth;

@@ -15,6 +15,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js">  </script>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+     <meta charset="UTF-8">
 
     <!-- Bootstrap-->
     <link rel="stylesheet" href="../style/css/index.css">
@@ -148,7 +149,7 @@ new WOW().init();
                     <p>
                         <span>BRITT UNNI ANDREASSEN BILBEN</span>
                         <span>Tlf: 469 87 310</span>
-                        <span>britt@tindeutvikling.no</span>
+                        <span><a href="mailto:britt@tindeutvikling.no?" target="_top">britt@tindeutvikling.no</a></span>
                     </p>
             </div>
             <div class="col-sm-3">
@@ -158,7 +159,7 @@ new WOW().init();
 
                     <span> ØYVIND HAVERSTAD</span>
                     <span>Tlf: 905 98 289</span>
-                    <span>øyvind@tindehytter.no</span>
+                    <span><a href="mailto:øyvind@tindeutvikling.no?" target="_top">øyvind@tindeutvikling.no</a></span>
                 </p>
             </div>
 
@@ -169,7 +170,7 @@ new WOW().init();
 
                     <span>TORBJØRN RANDEN</span>
                     <span>Tlf: 95030500 </span>
-                    <span>tr@tindeutvikling.no</span>
+                    <span><a href="mailto:tr@tindeutvikling.no?" target="_top">tr@tindeutvikling.no</a></span>
                 </p>
             </div>
             <div class="col-sm-3">
@@ -179,20 +180,22 @@ new WOW().init();
 
                     <span>TORE RUGSVEEN</span>
                     <span>Tlf: 457 77 188</span>
-                    <span>tore.rugsveen@tindeutvikling.no</span>
+                    <span><a href="mailto:tore.rugsveen@tindeutvikling.no?" target="_top">tore.rugsveen@tindeutvikling.no</a></span>
 
                 </p>
             </div>
         </div>
+         </div>
           <!--START ABT cont-->
-        <div class="well well-lg">
-            <h3 class="text-center">Tinde Utvikling</h3>
+        <div class="tindeinfo">
+            <div class="infoboks"><h3>Tinde Utvikling</h3>
             <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-            <div class="text-center"><a href="#kontakt">Kontakt oss</a>
+            <div class="kontaktoss"><a href="#kontakt">Kontakt oss</a>
+            </div>
             </div>
         </div>
         <!--END ABT cont-->
-    </div>
+    
     <!--END about-->
       <?php include("footer.html"); ?>
     <div>
