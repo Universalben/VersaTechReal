@@ -31,10 +31,39 @@
     <meta name="theme-color" content="#ffffff">
 </head>
 <body>
+  <!DOCTYPE html>
+<html>
+  <head>
+    <style>
+       #map {
+        height: 400px;
+        width: 100%;
+       }
+    </style>
+  </head>
+  <body>
+    <div class="fullimage"><img src="header.jpg"></div>
+    <h3>My Google Maps Demo</h3>
+    <div id="map"></div>
+    <script>
+      function initMap() {
+        var uluru = {lat: 61.113899, lng: 10.473096};
+          var uluru1 = {lat: 59.910868, lng: 10.622657};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 6,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCrJw_jtsVwdGOfsT1RmkPgcud6K79QXY0&callback=initMap">
+    </script>
     <?php include("header.html"); ?>
     <main>
-    <div class="fullimage"><img src="header.jpg"></div>
       <?php include("footer.html"); ?>
 </body>
-
 </html>

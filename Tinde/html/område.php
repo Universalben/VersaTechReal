@@ -31,14 +31,32 @@
     <meta name="theme-color" content="#ffffff">
 </head>
 <body>
-    
+
     <!--main nav start-->
     <?php include("header.html"); ?>
     <script>// Animations init
-new WOW().init();                    
+new WOW().init();
                     </script>
     <main>
     <div class="fullimage"><img src="header.jpg"></div>
+    <h3>My Google Maps Demo</h3>
+    <div id="map"></div>
+    <script>
+      function initMap() {
+        var uluru = {lat: -25.363, lng: 131.044};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCrJw_jtsVwdGOfsT1RmkPgcud6K79QXY0&callback=initMap">
+    </script>
       <?php include("footer.html"); ?>
 </body>
 
