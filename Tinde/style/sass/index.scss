@@ -177,9 +177,10 @@ h1.text-center.paddmore {
     margin-top:10%;
     padding:0;
     background-image: url(../../html/tindeutviklinginfo.jpg);
-    background-size: 1280px 402px;
-    background-repeat: no-repeat;
-    background-size: auto;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .tindeinfo h3 {
@@ -203,6 +204,7 @@ h1.text-center.paddmore {
 .tindeinfo .infoboks {
     padding:15%;
     color:white;
+    width: 100%;
 
 }
 
