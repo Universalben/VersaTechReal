@@ -24,7 +24,7 @@
     <!-- Gen Font-->
     <link href="https://fonts.googleapis.com/css?family=Rubik|Roboto+Mono" rel="stylesheet">
     <!-- Favicon-->
-    <link rel="icon" type="image/png" sizes="16x16" href="logo.bmp">
+    <link rel="icon" type="image/png" sizes="16x16" href="logo.png">
     <link rel="manifest" href="/manifest.json">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
@@ -146,9 +146,9 @@ new WOW().init();
                 <h4 class="text-center">
                     <h4><strong>Økonomi / regnskap</strong></h4>
                     <p>
-                        <span>BRITT UNNI ANDREASSEN BILBEN</span>
-                        <span>Tlf: 469 87 310</span>
-                        <span>britt@tindeutvikling.no</span>
+                        <span>ØYVIND HAVERSTAD</span>
+                        <span>Tlf: 905 98 289</span>
+                        <span><a href="mailto:øyvind@tindehytter.no?Subject=Hello%20again" target="_top">øyvind@tindehytter.no</a>
                     </p>
             </div>
             <div class="col-sm-3">
@@ -156,9 +156,9 @@ new WOW().init();
                 <h4><strong>Arb.styreformann</strong></h4>
                 <p>
 
-                    <span> ØYVIND HAVERSTAD</span>
-                    <span>Tlf: 905 98 289</span>
-                    <span>øyvind@tindehytter.no</span>
+                    <span> TORBJØRN RANDEN</span>
+                    <span>Tlf: 95030500</span>
+                    <span><a href="mailto:tr@tindehytter.no?Subject=Hello%20again" target="_top">tr@tindehytter.no</a>
                 </p>
             </div>
 
@@ -167,9 +167,9 @@ new WOW().init();
                 <h4><strong>Daglig leder</strong></h4>
                 <p>
 
-                    <span>TORBJØRN RANDEN</span>
-                    <span>Tlf: 95030500 </span>
-                    <span>tr@tindeutvikling.no</span>
+                    <span>TORE RUGSVEEN</span>
+                    <span>Tlf: 457 77 188 </span>
+                    <span><a href="mailto:tore.rugsveen@tindehytter.no?Subject=Hello%20again" target="_top">tore.rugsveen@tindehytter.no</a>
                 </p>
             </div>
             <div class="col-sm-3">
@@ -177,9 +177,9 @@ new WOW().init();
                 <h4><strong>Salgssjef</strong></h4>
                 <p>
 
-                    <span>TORE RUGSVEEN</span>
-                    <span>Tlf: 457 77 188</span>
-                    <span>tore.rugsveen@tindeutvikling.no</span>
+                    <span>BRITT UNNI ANDREASSEN BILBEN</span>
+                    <span>Tlf: 469 87 310</span>
+                    <span><a href="mailto:britt@tindehytter.no?Subject=Hello%20again" target="_top">britt@tindehytter.no</a>
 
                 </p>
             </div>
