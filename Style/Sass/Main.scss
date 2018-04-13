@@ -47,8 +47,9 @@ nav li a:focus {
    outline: none;
 }
 .logoimg{
-    height:100px;
-    width:100px;
+    height:150px;
+    width:150px;
+    margin-top: -30px;
 }
 .menuitem {
     float:right;
@@ -68,7 +69,17 @@ nav li a:focus {
     
   
 }
-   
+.search-title1{
+    margin-left: -18px;
+}
+
+.search-title2{
+    margin-left: -18px;
+}
+
+.search-title3{
+    margin-left: -18px;
+}
 .turkis{
   
 }
@@ -82,10 +93,50 @@ background-image:url(../Pics/headerM.jpg);
     background-repeat:no-repeat;
 
 }
+
 /*Div*/
+
+.slidygaalaa{
+    margin-left: 550px;
+}
+
+.gaalaa-title h1{
+    background: rgba(255, 255, 255, .85);
+    overflow: hidden;
+    display:inline-block;
+    padding: 10px;
+    color: #080404;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 770px;
+    margin-top: 60px;
+    font-size: 130px;
+    mix-blend-mode: lighten;
+    /*text-shadow: 2px -1px 6px rgba(96, 150, 150, 0.55);*/
+}
+
+.gaalaa-tomt h2{
+    color: rgb(85, 193, 242);
+    margin-left: 748px;
+    margin-top: 300px;
+    font-size: 40px;
+}
+
+.gaalaa-tagline h3{
+    margin-top: -5px;
+    margin-left: 720px;
+    font-style: italic;
+}
+.gaalaa-info p{
+    text-align: center;
+    font-size: 20px;
+    width: 600px;
+    height: 500px;
+    margin-left: 650px;
+    margin-top: 50px;
+}
 .size{
     height:80%;
-        width:50%;
+    width:50%;
     margin-top:5%;
     
 }
@@ -139,12 +190,13 @@ font-family:$fonth;
     position: fixed;
     left: 45%;
     bottom: 0;
-    height:10%;
-    width: 10%;
+    height:60px;
+    width: 60px;
     background-color: lightgray;
     text-align: center;
     display:none;
     border-radius: 50px;
+    margin-left: 65px;
 
 
 }
@@ -171,6 +223,7 @@ font-family:$fonth;
 }
 ::-webkit-scrollbar-thumb:window-inactive {
 	background: $Darkblue;
+}
 .Imgcar{
     height:100%;
     width:100%;
@@ -274,7 +327,8 @@ order{
 }
 .buttonmoretxt {
     font-size: 40px;
-  margin-left:46.5%;
+  margin-left:47%;
+  margin-top: -100px;
     font-weight:bold;
  
 }
